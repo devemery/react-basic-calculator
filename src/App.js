@@ -10,7 +10,10 @@ function App() {
   const [result, setResult] = useState(0); 
  
   function plus(e) { 
-    e.preventDefault(); 
+    e.preventDefault();
+    // const inputVal = inputRef.current.value; 
+    // const newResult = result + Number(inputVal); 
+    // setResult(newResult);  
     setResult((result) => result + Number(inputRef.current.value)); 
   }; 
  
